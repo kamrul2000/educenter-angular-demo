@@ -13,12 +13,10 @@ import { User } from '../../models/user.model';
       <div class="container">
         <!-- Brand -->
         <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/">
-          <div class="brand-logo">
-            <i class="bi bi-star-fill text-warning"></i>
-          </div>
+          <img src="assets/logo.svg" alt="Star EduCenter Logo" class="brand-logo-img">
           <div>
-            <span class="fw-bold fs-5">EduCenter</span>
-            <small class="d-block lh-1" style="font-size:0.65rem; opacity:0.8">Learn Smart, Gain Confidence</small>
+            <span class="fw-bold fs-5">Star EduCenter</span>
+            <small class="d-block lh-1" style="font-size:0.62rem; opacity:0.8">Learn Smart, Gain Confidence</small>
           </div>
         </a>
 
@@ -103,7 +101,7 @@ import { User } from '../../models/user.model';
     </nav>
   `,
   styles: [`
-    .brand-logo { width: 32px; height: 32px; background: rgba(255,255,255,0.2); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .brand-logo-img { width: 42px; height: 42px; border-radius: 10px; object-fit: contain; background: rgba(255,255,255,0.15); padding: 2px; }
     .nav-link.active { font-weight: 600; }
   `]
 })

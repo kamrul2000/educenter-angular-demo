@@ -11,10 +11,10 @@ import { RouterLink } from '@angular/router';
         <div class="container">
           <div class="row g-4">
             <div class="col-lg-4">
-              <div class="d-flex align-items-center gap-2 mb-3">
-                <i class="bi bi-star-fill text-warning fs-4"></i>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <img src="assets/logo.svg" alt="Star EduCenter Logo" style="width:56px;height:56px;border-radius:12px;object-fit:contain;background:rgba(255,255,255,0.12);padding:3px;">
                 <div>
-                  <h5 class="mb-0 text-white fw-bold">EduCenter</h5>
+                  <h5 class="mb-0 text-white fw-bold">Star EduCenter</h5>
                   <small class="text-light opacity-75">Learn Smart, Gain Confidence</small>
                 </div>
               </div>
@@ -79,7 +79,7 @@ import { RouterLink } from '@angular/router';
       </div>
       <div class="footer-bottom py-3 border-top border-secondary">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-          <p class="text-light opacity-50 small mb-0">© 2024 EduCenter. All rights reserved. Made with ❤️ in Bangladesh.</p>
+          <p class="text-light opacity-50 small mb-0">© 2025 Star EduCenter. All rights reserved. &nbsp;|&nbsp; 🇧🇩 Made with ❤️ in Bangladesh &nbsp;|&nbsp; <span class="text-warning opacity-100 fw-semibold">Designed & Built by Kamrul</span></p>
           <div class="d-flex gap-3 mt-2 mt-md-0">
             <a href="#" class="text-light opacity-50 small text-decoration-none">Privacy Policy</a>
             <a href="#" class="text-light opacity-50 small text-decoration-none">Terms of Use</a>

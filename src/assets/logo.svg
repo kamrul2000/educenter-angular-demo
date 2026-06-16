@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Light blue background circle -->
+  <circle cx="100" cy="100" r="98" fill="#d6eaf8"/>
+
+  <!-- Outer arc ring (partial) -->
+  <path d="M 30 100 A 70 70 0 1 1 170 100" stroke="#b0b8c8" stroke-width="2.5" fill="none" stroke-dasharray="6,4"/>
+
+  <!-- Stars around arc -->
+  <text x="100" y="22" font-size="10" text-anchor="middle" fill="#c8a840">★</text>
+  <text x="130" y="30" font-size="8" text-anchor="middle" fill="#a0a8b8">★</text>
+  <text x="70" y="30" font-size="8" text-anchor="middle" fill="#a0a8b8">★</text>
+  <text x="155" y="52" font-size="7" text-anchor="middle" fill="#c8a840">★</text>
+  <text x="45" y="52" font-size="7" text-anchor="middle" fill="#c8a840">★</text>
+  <text x="168" y="80" font-size="6" text-anchor="middle" fill="#a0a8b8">★</text>
+  <text x="32" y="80" font-size="6" text-anchor="middle" fill="#a0a8b8">★</text>
+
+  <!-- 5-pointed star shape (ribbon-style) using path -->
+  <!-- Blue ribbon arm top-left -->
+  <path d="M100 40 L85 80 Q75 70 60 75 L80 95 Q70 110 75 125 L100 105 L125 125 Q130 110 120 95 L140 75 Q125 70 115 80 Z" fill="none"/>
+
+  <!-- Colored ribbon strands -->
+  <!-- Blue strand -->
+  <path d="M100 42 C95 55 82 65 68 72 C80 78 88 90 88 102 C94 96 100 88 100 78" fill="#4a90d9" opacity="0.9"/>
+  <!-- Orange strand -->
+  <path d="M100 42 C105 55 118 65 132 72 C120 78 112 90 112 102 C106 96 100 88 100 78" fill="#e8834a" opacity="0.9"/>
+  <!-- Green strand -->
+  <path d="M88 102 C82 108 72 118 68 128 C80 122 92 118 100 118 C108 118 120 122 132 128 C128 118 118 108 112 102 C108 106 104 108 100 108 C96 108 92 106 88 102 Z" fill="#5a9e6a" opacity="0.9"/>
+
+  <!-- Book icon in center -->
+  <rect x="88" y="75" width="24" height="18" rx="2" fill="#455a6a"/>
+  <rect x="88" y="75" width="12" height="18" rx="2" fill="#5a7a8a"/>
+  <line x1="100" y1="75" x2="100" y2="93" stroke="#fff" stroke-width="1.5"/>
+  <!-- Graduation cap -->
+  <ellipse cx="100" cy="75" rx="8" ry="3" fill="#2d4a5a"/>
+  <rect x="95" y="70" width="10" height="6" rx="1" fill="#2d4a5a"/>
+  <polygon points="100,68 92,73 108,73" fill="#2d4a5a"/>
+
+  <!-- Laurel wreath sides -->
+  <text x="82" y="94" font-size="7" fill="#5a7a4a" opacity="0.8">❧</text>
+  <text x="112" y="94" font-size="7" fill="#5a7a4a" opacity="0.8" transform="scale(-1,1) translate(-224,0)">❧</text>
+
+  <!-- Text: STAR EDUCENTER -->
+  <text x="100" y="148" font-size="13" font-family="Georgia, serif" font-weight="bold" text-anchor="middle" fill="#1d3557" letter-spacing="2">STAR EDUCENTER</text>
+  <!-- Tagline -->
+  <text x="100" y="162" font-size="8.5" font-family="Georgia, serif" font-style="italic" text-anchor="middle" fill="#2a5a7a" letter-spacing="0.5">Learn Smart Gain Confidence</text>
+</svg>
