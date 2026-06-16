@@ -1,0 +1,15 @@
+# Angular / Node
+node_modules/
+dist/
+.angular/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
